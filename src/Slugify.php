@@ -26,6 +26,7 @@ use Cocur\Slugify\RuleProvider\RuleProviderInterface;
  */
 class Slugify implements SlugifyInterface
 {
+    //Test Comment here
     const LOWERCASE_NUMBERS_DASHES = '/([^\p{Arabic}a-zA-Z0-9]+|-+)/u';
 
     /**
